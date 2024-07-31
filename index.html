@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Floricultura</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" class="logo-img">
+        </div>
+        <div class="nav-container">
+            <div class="links">
+                <a href="#">Início</a>
+                <a href="#">Sobre</a>
+                <a href="#">Flores</a>
+                <a href="#">Serviços</a>
+                <a href="#">Contato</a>
+            </div>
+            
+        </div>
+        <div class="social-icons" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+        <a href="#" class="buy-button">Comprar</a>
+        <i class="fa-solid fa-xmark cancel" onclick="toggleMenu()"></i>
+
+                
+    </nav>
+    <section class="intro">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-right" data-aos-duration="1500">Bem-vindo à Floricultura</h1>
+                <div class="typewriter" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="200">
+                    Jardim <span class="typewriter-text"></span><label>das Flores</label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="400">
+                    Encontre as flores perfeitas para cada ocasião!
+                </p>
+               
+                
+            </div>
+            <div class="image">
+                <img src="main.png" data-aos="fade-left" data-aos-duration="2000" alt="Flores">
+            </div>
+            <div class="decorative-details">
+                <!-- Adicione detalhes decorativos aqui, como imagens ou formas -->
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="services-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Nossos Serviços</h2>
+            <div class="services-list">
+                <div class="service" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <i class="fas fa-gift"></i>
+                    <h3>Arranjos Florais</h3>
+                    <p>Arranjos personalizados para casamentos, eventos e presentes.</p>
+                </div>
+                <div class="service" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
+                    <i class="fas fa-truck"></i>
+                    <h3>Entrega em Domicílio</h3>
+                    <p>Entrega rápida e segura de flores frescas em toda a cidade.</p>
+                </div>
+                <div class="service" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">
+                    <i class="fas fa-gift"></i>
+                    <h3>Presentes Especiais</h3>
+                    <p>Caixas de presente e flores para qualquer ocasião especial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flowers">
+        <div class="flowers-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Nossa Seleção de Flores</h2>
+            <div class="flowers-list">
+                <div class="flower-item" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="rose.png" alt="Rosa">
+                    <h3>Rosa Vermelha</h3>
+                    <p>Um clássico eterno. Ideal para expressar amor e admiração.</p>
+                    <p>Preço: R$ 29,90</p>
+                </div>
+                <div class="flower-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="lily.png" alt="Lírio">
+                    <h3>Lírio Branco</h3>
+                    <p>Elegância e pureza em um só arranjo. Perfeito para eventos formais.</p>
+                    <p>Preço: R$ 34,90</p>
+                </div>
+                <div class="flower-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <img src="tulip.png" alt="Tulipa">
+                    <h3>Tulipa Amarela</h3>
+                    <p>Brilho e alegria. Ideal para iluminar qualquer ambiente.</p>
+                    <p>Preço: R$ 24,90</p>
+                </div>
+                <div class="flower-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <img src="orchid.png" alt="Orquídea">
+                    <h3>Orquídea Roxa</h3>
+                    <p>Exótica e sofisticada. Um presente inesquecível.</p>
+                    <p>Preço: R$ 49,90</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Contato</h2>
+            <form data-aos="fade-up" data-aos-duration="1500">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" placeholder="Mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Floricultura. Todos os direitos reservados.</p>
+            <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Serviço</a></p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 1});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
